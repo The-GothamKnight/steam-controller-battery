@@ -8,7 +8,7 @@ to the Steam desktop title bar for a supported Steam Controller.
 - Battery percentage in the Steam title bar
 - Charging, wireless, and synchronization status when Steam reports them
 - Automatic hiding when the controller disconnects
-- A title-bar integration independent of Steam's announcements control
+- Title-bar integration
 - Optional controller-state publishing for Xenon and TGK Steam
 
 ## Requirements
@@ -38,7 +38,9 @@ available. The indicator disappears when the controller disconnects.
 
 When Xenon and the TGK Steam widget are installed, the plugin publishes the
 same controller state through Xenon's local `scriptStates` service. Xenon is
-optional: the Steam title-bar indicator works without it.
+optional: the Steam title-bar indicator works without it. See the [Xenon
+website](https://xenon-app.com/) and [Xenon GitHub repository](https://github.com/marcimastro98/Xenon)
+for official resources.
 
 ## Compatibility and limitations
 
