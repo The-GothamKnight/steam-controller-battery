@@ -139,8 +139,8 @@ local function get_patches()
             file = [[chunk~[0-9a-f]+\.js]],
             transforms = {
                 {
-                    match = [[(\(0,(\w+)\.jsx\)\(fr,\{\}\))]],
-                    replace = [[(0,\2.jsx)(#{{self}}?.SteamBatteryIndicator||(()=>null),{}),\1]],
+                    match = [[children:\[(\(0,(\w+)\.jsx\)\(\w+,\{\}\))]],
+                    replace = [[children:[(0,\2.jsx)(#{{self}}?.SteamBatteryIndicator||(()=>null),{}),\1]],
                 },
             },
         },

@@ -1,6 +1,6 @@
 {
   "name": "steam-controller-battery",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": "The-GothamKnight",
   "description": "Steam Controller battery status for Millennium.",
   "type": "module",

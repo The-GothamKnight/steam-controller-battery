@@ -1,7 +1,7 @@
 [plugin]
 id = "steam-controller-battery"
 name = "Steam Controller Battery"
-version = "0.4.0"
+version = "0.4.1"
 author = "The-GothamKnight"
 description = "Shows Steam Controller battery and charging status in Steam, with optional Xenon integration."
 
