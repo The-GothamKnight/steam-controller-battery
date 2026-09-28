@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "millennium": [
+        "./.millennium/lsp/ts"
+      ]
+    },
+    "typeRoots": [
+      "./.millennium/types",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "frontend/**/*"
+  ]
+}

@@ -1,0 +1,10 @@
+.millennium/
+node_modules/
+dist/
+*.star
+*.log
+.luarc.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db.millennium/lsp/

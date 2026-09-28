@@ -1,0 +1,20 @@
+[plugin]
+id = "steam-controller-battery"
+name = "Steam Controller Battery"
+version = "0.4.0"
+author = "The-GothamKnight"
+description = "Shows Steam Controller battery and charging status in Steam, with optional Xenon integration."
+
+[backend]
+entry = "backend/main.lua"
+sources = ["backend/**/*.lua"]
+
+[frontend]
+entry = "frontend/index.tsx"
+
+[compiler]
+output_path = "auto"
+
+[dev]
+auto_restart = true
+reload_steamui_when = "both"

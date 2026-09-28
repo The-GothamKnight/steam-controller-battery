@@ -1,0 +1,21 @@
+{
+  "name": "steam-controller-battery",
+  "version": "0.4.0",
+  "author": "The-GothamKnight",
+  "description": "Steam Controller battery status for Millennium.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "watch": "starlight watch",
+    "pack": "starlight pack --release",
+    "build": "starlight pack --release",
+    "test": "bun test tests",
+    "prepare": "starlight lsp"
+  },
+  "devDependencies": {
+    "@steambrew/starlight": "^1.1.3",
+    "@types/react": "19.1.1",
+    "@types/react-dom": "19.1.1",
+    "typescript": "^5.9.3"
+  }
+}
